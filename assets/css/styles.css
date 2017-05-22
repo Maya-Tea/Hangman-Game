@@ -1,0 +1,43 @@
+body{
+	background-image: url("../images/hip-square.png"); 
+}
+h1{
+	text-align:center;
+}
+h3{
+	text-align:center;
+}
+#keyBoard{
+	background-color: grey;
+	text-align: center;
+	position:relative;
+}
+#canvasDiv{
+	text-align:center;
+}
+
+.letterButton{
+	/*position:absolute;*/
+}
+#gameButtons{
+	text-align:center;
+}
+#screenLog{
+	text-align:center;
+	background-color: black;
+	color:lightgreen;
+	
+	font-family: "Courier New", Courier, monospace;
+
+}
+#win-lose{
+	color:black;
+}
+#guessArea{
+	top:0;
+	left:0;
+}
+canvas {
+   /* border: 1px dotted black;*/
+    position:relative;
+}
